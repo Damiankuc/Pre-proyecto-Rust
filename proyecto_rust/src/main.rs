@@ -1,12 +1,16 @@
-fn main() {
-    let x = 5;
-    let y = 10;
-    println!("El valor obtenido de x+y es {}", x + y);
-    println!("El valor obtenido de x-y es {}", x - y);
-    println!("El valor obtenido de x*y es {}", x * y);
-    println!("El valor obtenido de x/y es {}", x / y);
 
-    //Concepto de valor sombreado
-    let x =x + 1;
-    println!("el valor obtenido actual de x+y es {}", x + y);
+//Simulacion de clase usuario en rust
+struct Usuario{
+    nombre, cargo: String,
+    edad: u8
 }
+fn main(){
+    usuario1=Usuario{
+        nombre: String::from("Damian"),
+        cargo: String::from("Programador"),
+        edad: 22
+    };
+println!("El nombre del usuario es {}, su cargo es {} y su edad es {}", usuario1.nombre, usuario1.cargo, usuario1.edad);
+
+}
+
