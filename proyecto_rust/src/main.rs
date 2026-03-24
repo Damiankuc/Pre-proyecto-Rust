@@ -13,16 +13,15 @@ fn main(){
     };
 println!("El nombre del usuario es {}, su cargo es {} y su edad es {}", usuario1.nombre, usuario1.cargo, usuario1.edad);
 
-}
-
-fn main(){
     let usuario2=Usuario{
         nombre: String::from("Pancho"),
         cargo: String::from("Ingeniero"),
         edad: 27
     };
 println!("El nombre del usuario es {}, su cargo es {} y su edad es {}", usuario2.nombre, usuario2.cargo, usuario2.edad);
+  
 
 }
+
 
 
